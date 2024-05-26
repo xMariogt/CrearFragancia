@@ -1,0 +1,33 @@
+.contenido{
+    background-color: aqua;
+    display: wrap;
+    padding: 10px;
+    margin: 1%;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 50px;
+}
+
+.elementos{
+    background-color: aquamarine;
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.elemento{
+    padding: 10px;
+}
+
+.texto{
+    font-size: 20px;
+}
+img{
+    border-radius: 500px;
+    width: 80%
+}
