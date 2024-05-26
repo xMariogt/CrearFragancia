@@ -1,0 +1,107 @@
+body {
+    background-color: pink;
+}
+
+.titulo {
+    background-color: yellow;
+    margin-left: 70%;
+    padding: 10px;
+    margin-right: 8%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.description {
+    background-color: green;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 65%;
+    margin-right: 3%;
+}
+
+.opcion1 {
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.opcion2 {
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+.esencias {
+    background-color: skyblue;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.esencia1 {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.esencia2 {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.esencia3 {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.subtitulo1 {
+    padding-left: 0;
+    font-size: 60px;
+}
+
+.subtitulo2 {
+    padding-left: 0;
+    font-size: 30px;
+}
+
+img {
+    border-radius: 1000px;
+    width: 30%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #D77E5E;
+    color: white;
+    border: none;
+    border-radius: 0.25em;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 0 0.5em;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #f2f2f2;
+}

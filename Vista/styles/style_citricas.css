@@ -1,0 +1,75 @@
+body {
+    background-color: pink;
+}
+
+.superior {
+    display: flex;
+}
+
+.explicacion {
+    background-color: aqua;
+    margin-left: 5%;
+}
+
+.subtitulo1 {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: orangered;
+}
+
+.subtitulo2 {
+    background-color: blue;
+    text-align: center;
+    font-size: 60px;
+}
+
+.subtitulo3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.opciones1{
+    margin-top: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.opciones2 {
+    margin-top: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcion {
+    background-color: bisque;
+    padding: 10px;
+    margin: 1%;
+}
+
+.opcion2 {
+    background-color: bisque;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+}
+
+.nombre {
+    font-size: 30px;
+}
+
+.botes {
+    padding-top: 10px;
+    border-radius: 500px;
+    width: 40%;
+}
+
+img {
+    width: 30%;
+}

@@ -1,0 +1,48 @@
+body {
+    background-image: url('/img/inicio.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 4.5em;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+.subtitle {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 3em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #D77E5E;
+    color: white;
+    border: none;
+    border-radius: 0.25em;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 0 0.5em;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #f2f2f2;
+}
