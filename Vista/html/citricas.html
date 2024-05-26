@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aromas citricos</title>
     <link rel="stylesheet" href="/Vista/styles/style_citricas.css">
+    <script src="/Vista/js/funcion.js"></script>
 </head>
 <body>
     <div class="superior">
@@ -22,7 +23,7 @@
 
     <div class="opciones1">
         <div class="opcion">
-            <a href="./florales.html">
+            <a href="./florales.html" onclick="AgregarIngrediente('Limon')">
             <img class="botes" src="/img/botella1.jpg" alt="">
             <div class="nombre">
                 Limón
@@ -35,7 +36,7 @@
         </div>
     
         <div class="opcion">
-            <a href="./florales.html">
+            <a href="./florales.html" onclick="AgregarIngrediente('Mandarina')">
             <img class="botes" src="/img/botella1.jpg" alt="">
             <div class="nombre">
                 Mandarina
@@ -48,7 +49,7 @@
         </div>
     
         <div class="opcion">
-            <a href="./florales.html">
+            <a href="./florales.html" onclick="AgregarIngrediente('Naranja')">
             <img class="botes" src="/img/botella1.jpg" alt="">
             <div class="nombre">
                 Naranja
@@ -64,7 +65,7 @@
     <div class="opciones2">
         
         <div class="opcion2">
-            <a href="./florales.html">
+            <a href="./florales.html" onclick="AgregarIngrediente('Naranja dulce')">
             <img class="botes" src="/img/botella1.jpg" alt="">
             <div class="nombre">
                 Naranja dulce
@@ -77,7 +78,7 @@
         </div>
         
         <div class="opcion2">
-            <a href="./florales.html">
+            <a href="./florales.html" onclick="AgregarIngrediente('Toronja')">
             <img class="botes" src="/img/botella1.jpg" alt="">
             <div class="nombre">
                 Toronja
@@ -87,6 +88,12 @@
                 aporta una sensación de calidez y profundidad.
             </div>
             </a>
+        </div>
+        <div class="lista-seleccionados">
+            <h2>Ingredientes Seleccionados</h2>
+            <ul id="ingredientes-seleccionados">
+                </ul>
+        </div>
     </div>
 </body>
 </html>
