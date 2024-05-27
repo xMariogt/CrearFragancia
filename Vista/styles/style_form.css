@@ -1,0 +1,41 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ /* Estilos para las columnas */
+.columna {
+    width: 50%;
+    padding: 10px;
+}
+
+h1,h4{
+    text-align: center;
+}

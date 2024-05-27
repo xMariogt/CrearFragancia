@@ -1,12 +1,15 @@
 .contenido{
     background-color: aqua;
-    display: wrap;
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px;
+    justify-content: center;
     margin: 1%;
 }
 
 .titulo{
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 10%;
     font-size: 50px;
 }
