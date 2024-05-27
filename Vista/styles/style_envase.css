@@ -25,10 +25,19 @@
 
 .elemento{
     padding: 10px;
+    transition: background-color 1s;
+}
+
+.elemento:hover{
+    background-color: white;
 }
 
 .texto{
     font-size: 20px;
+}
+
+a{
+    text-decoration: none;
 }
 img{
     border-radius: 500px;
